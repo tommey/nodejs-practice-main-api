@@ -9,6 +9,8 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "co": "^4.6.0",
+    "koa": "^1.0.0",
     "levee": "^1.1.0",
     "request": "^2.61.0"
   }
