@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "mocha src/**/*.spec.js"
+    "test": "mocha src/**/*.spec.js",
+    "coverage": "istanbul cover _mocha src/**/*.spec.js"
   },
   "author": "",
   "license": "ISC",
@@ -16,6 +17,7 @@
   },
   "devDependencies": {
     "chai": "^3.2.0",
+    "istanbul": "^0.3.18",
     "mocha": "^2.2.5",
     "nock": "^2.10.0",
     "supertest": "^1.1.0"
